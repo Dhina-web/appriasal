@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appraisal Home</title>
+    <!--CSS-->
+    <link href="./assets/css/fontawesome.min.css" crossorigin  rel="stylesheet" type="text/css"/>
+    <!--Style Sheets-->
+    <link crossorigin rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link crossorigin rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/jquery.dataTables.css" />
+    
+   
+</head>
+<body>
+    <section class="navbar-section">
+        <div class='navbar-desktop'>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white navReact mb-2">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src='./assets/images/logo.jpg' class='SRMH-logo img-fluid logoH' alt='SRM Hospitals Logo' />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-baseline nav_coll_flex">
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Reports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Patients</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./scores.html">Scores</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Doctors <span class="fa_chrvon"><i class="fa-light fa-chevron-down ml-2"></i></span>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="./assets/images/avatar.png" alt="Avatar" class="avatarImg">
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <h6 class="profile-name" href="#">John Doe</h6>
+                                        <p class="profess" href="#">Front End Developer</p>
+                                    </li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-light fa-trophy-star mr-2"></i>Acheivment</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-light fa-people-group mr-2"></i>Team</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-light fa-user-gear mr-2"></i>Settings</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="./login.html"><i class="fa-light fa-power-off mr-2"></i>Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            </div>
+    </section>
+    <section class="title-section">
+        <div class="container">
+            <div class="row row-xs">
+                <div class="col-md-12">
+                    <div class="text-center my-4">
+                        <h2>Medical, Health Science Colleges and S& H, Law</h2>
+                    </div>
+                    <div class="mb-3">
+                        <h4>College:<span class="ml-2">SRM University</span></h4>    
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card_title text-center my-3">
+                                <h5 class="font-weight-bold">PERFORMANCEAPPRAISAL FORM (2022)</h5>
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <h6>Name:<span class="ml-2">John Doe</span></h6>
+                                <h6>Emp ID:<span class="ml-2">ASE289U</span></h6>
+                                <h6>Designation:<span class="ml-2">Team Lead</span></h6>
+                            </div>
+                            <div class="qualific">
+                                
+                                <ul class="accordion-list">
+                                    <li class="border_bd">
+                                        <div class="d-flex justify-content-between">
+                                            <h6>Qualification</h6>
+                                            <h6><span class="plus_minus"><i class="fa-light fa-plus"></i></span></h6>
+                                        </div>
+                                      <div class="answer">
+                                        
+                                        <ol>
+                                            <li>Deans can make changes specific to the Department/College </li>
+                                            <li>Please enumerate in 100 words any unique value addition/contribution you have done to the department/College/Institution</li>
+                                            <li>Details of publications/Grants/Funds/Projeccts/Consultancies will be taken from the TEAMDECK ONLY. Updation of the Teamdeck will help your evaluation</li>
+                                        </ol>  
+                                      </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <secition class="table-section">
+        <div class="container my-4">
+            <div class="row row-xs mb-4">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <ul class="nav nav-tabs nav_table_tab">
+                                <li class="nav-item">
+                                  <a class="nav-link tableTab active" data-id="0" data-ref="table-tab-content-" aria-current="page" href="#">Academin & Professional</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link tableTab" data-id="1" data-ref="table-tab-content-" href="#">Research</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link tableTab" data-id="2" data-ref="table-tab-content-" href="#">Administration</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link tableTab" data-id="3" data-ref="table-tab-content-" href="#">Personality</a>
+                                </li>
+                                
+                              </ul>
+                              <div class="performanceTable py-4 hide_content" id="table-tab-content-0">
+                                <div class="mb-3">
+                                    <h4 class="font-weight-bold mb-0">Academic  and Professional (A) 100 points</h4>
+                                </div>
+                                <div class="mb-3 text-center">
+                                    <h5>Academic Performance</h5>
+                                </div>
+                                <div class="tables">
+                                    <table id="performanceTable" class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>SI.No</th>
+                                                <th>Attributes</th>
+                                                <th>Details</th>
+                                                <th>Maximum Points  Assigned</th>
+                                                <th>Scored Points</th>
+                                                <th>Self Appraisal</th>
+                                                <th>Assessor</th>
+                                                <th>Reviewer</th>
+                                                <th>Total</th>
+                                                <th>Remarks</th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                              </div>
+                              <div class="researchTable py-4  hide_content d-none" id="table-tab-content-1">
+                                <div class="mb-3 text-center">
+                                    <h4 class="font-weight-bold mb-0">Research (B) 100 points</h4>
+                                </div>
+                               
+                                <div class="tables table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>SI.No</th>
+                                                <th style="width:350px;">Attributes</th>
+                                                <th style="width:350px;">Details</th>
+                                                <th>Maximum Points  Assigned</th>
+                                                <th>Scored Points</th>
+                                                <th>Self Appraisal</th>
+                                                <th>Assessor</th>
+                                                <th>Reviewer</th>
+                                                <th>Total</th>
+                                                <th>Remarks</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Publication in indexed  Journals (Scopus publications, WOS)and Impact Factor  as per Matrix shared in a separate sheet</td>
+                                                <td>Matrix attached in the next sheet</td>
+                                                <td>30</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr> 
+                                                <tr> 
+                                                    <td rowspan="4" style="vertical-align:middle;">2</td> 
+                                                    <td>Applying for Projects/Grants/Consultancies</td> 
+                                                    <td >5</td>
+                                                    <td rowspan="4" style="vertical-align:middle;">17</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr> 
+                                                <tr> 
+                                                    <td>Projects  Funds/ Research Grants - Principal Investigator -1</td> 
+                                                    <td >6</td>  
+                                                </tr> 
+                                                <tr> 
+                                                    <td>Projects - Co-Prinicipal Investigator </td> 
+                                                    <td >4</td>
+                                                </tr> 
+                                                <tr> 
+                                                    <td>Co-Investigators</td> 
+                                                    <td >2</td>
+                                                </tr> 
+                                               
+                                            </tr>
+                                            <tr>
+                                                <tr>
+                                                    <td rowspan="4" style="vertical-align:middle;">3</td>
+                                                    <td>Patents - Filed</td>
+                                                    <td>8</td>
+                                                    <td rowspan="4" style="vertical-align:middle;">28</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Patents - Published</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Patents - Granted</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Patents - Commercial</td>
+                                                    <td>10</td>
+                                                </tr>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Consultancy projects
+                                                </td>
+                                                <td></td>
+                                                <td>7</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    PhD guideship
+                                                </td>
+                                                <td>Two or three PhD awarded : 12,One PhD awarded = 6, Work Completed fo 2 Scholars = 6, Work completed for one Scholar = 3</td>
+                                                <td>12</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Book/Chapter Publications with ISSN/ISBN Number
+                                                </td>
+                                                <td>2 Chapters : 6,one Book Chapter = 3</td>
+                                                <td>6</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td colspan="2">Total</td>
+                                                <td>100</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td ></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td colspan="9">Total</td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+
+                                       
+                                         
+                                        </table> 
+                                  
+                                </div>
+                              </div>
+                              <div class="admsonTab py-4 hide_content d-none" id="table-tab-content-2">
+                                <div class="mb-3 text-center">
+                                    <h4 class="font-weight-bold mb-0">Administration  (C) 75 points</h4>
+                                </div>
+                               
+                                <div class="tables">
+                                    <table id="admsonTable" class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>SI.No</th>
+                                                <th>Attributes</th>
+                                                <th>Details</th>
+                                                <th>Maximum Points  Assigned</th>
+                                                <th>Scored Points</th>
+                                                <th>Self Appraisal</th>
+                                                <th>Assessor</th>
+                                                <th>Reviewer</th>
+                                                <th>Total</th>
+                                                <th>Remarks</th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                                
+                              </div>
+                              <div class="personalityTab py-4 hide_content d-none" id="table-tab-content-3">
+                                <div class="mb-3 text-center">
+                                    <h4 class="font-weight-bold mb-0">Personality  (D) 25 points</h4>
+                                </div>
+                               
+                                <div class="tables">
+                                    <table id="personalityTable" class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>SI.No</th>
+                                                <th>Attributes</th>
+                                                <th>Details</th>
+                                                <th>Maximum Points  Assigned</th>
+                                                <th>Scored Points</th>
+                                                <th>Self Appraisal</th>
+                                                <th>Assessor</th>
+                                                <th>Reviewer</th>
+                                                <th>Total</th>
+                                                <th>Remarks</th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                                
+                              </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <hr/>
+           
+        </div>
+    </secition>
+   
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/fontawesome.min.js"></script>
+    <script src="./assets/js/datatables.min.js"></script>
+    <script src="./assets/js/datatables_advanced.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.dropdown').click(function(){
+                $('.dropdown-menu').removeClass('show');
+                $(this).find('ul').addClass('show');
+                $('.fa_chrvon').html('<i class="fa-light fa-chevron-down ml-2"></i>');
+                if($(this).find('ul').hasClass('show')){
+                    $(this).children('a').find('span').html('<i class="fa-light fa-chevron-up ml-2"></i>');
+                }
+            });
+
+            //Accordian
+            $('.accordion-list > li > .answer').hide();
+    
+            $('.accordion-list > li').click(function() {
+                if ($(this).hasClass("active")) {
+                    $(this).removeClass("active").find(".answer").slideUp();
+                    $(this).find('.plus_minus').html('<i class="fa-light fa-plus"></i>')
+                } else {
+                    $(".accordion-list > li.active .answer").slideUp();
+                    $(".accordion-list > li.active").removeClass("active");
+                    $(this).addClass("active").find(".answer").slideDown();
+                    $(this).find('.plus_minus').html('<i class="fa-light fa-minus"></i>')
+                }
+                return false;
+            });
+
+            $('.tableTab').click(function(e){
+                e.preventDefault();
+                var id = $(this).data('id');
+                var ref = $(this).data('ref');
+                $('.tableTab').removeClass('active')
+                $(this).addClass('active');
+                $('.hide_content').addClass('d-none');
+                $('#'+ref+id).removeClass('d-none');
+            })
+            var dataSet = [
+                [ "1", "Overall pass percentage ( UG+PG)", ">90 pc=7,70-90pc = 5,61-69pc =2,< 60 pc=0", "7", "", "", "", "","","","" ],
+                [ "2", "Special efforts taken towards improving the academic performance of students", "weak students maybe converted to 'slow learners'", "3", "", "", "","","","To track the improvement of slow learners and submit evidence of performance enhanced." ],
+                [ "3", 
+                "Co-curricular extension Activities, special camps, awareness programs etc.", 
+                "Recogntions to be classified as per designation and differentiated for Lecturer, Senior Resident, Assisatnt Professor, Reader, Associate Professor, Professor etc.", "25", "", "", "", "","","To adopt from Dental College method" ],
+                [ "4", 
+                    "Guest lectures/ Invited talks/Faculty Invited Lectures, ",
+                 "Three Invited Lectures = 5, 2 Invited Lectures = 3, One Invited Program = 1", "7", "", "", "", "","","","Guest Lectures and invited Lectures only to the top 30 NIRF ranked institutions." ],
+                [ "5", "Faculty Development Program - Minimum three days program only acceptable", "Three Programs = 5,Two Programs = 3,One program = 1", "7", "", "", "", "","","","" ],
+                [ "6", 
+                "Professional advancements - (FRCS, MRCP, FRCP, MRCS, AB, fellowships, PG diploma, diploma courses, NPTEL,Swayam, MOOC, special fellowship programs etc.)",
+                 "Assesor and Reviewer to assign the maximum points depending on the program relevance", "7", "", "", "", "","","","" ],
+                [ "7", 
+                "Professional Contribution to the Institution, eg: New treatment regimen/ New teaching methodology/ Introduction of new courses, or any other value addition.", 
+                "Assesor and Reviewer to assign the maximum points depending on the program relevance", "3", "", "", "", "","","","" ],
+                ["8", "Innovation in process / Treatment of patients/ Evaluation/ in  collaborations with other departments and other departments, institutions?","Assesor  and Reviewer to assign the maximum points depending on the program relevance", "", "", "", "", "", "", ""],
+                ["9", "Student related activities that reflect on quality improvement in the Institution, student oriented projects, mentor - mentee process etc.",
+                "Assesor  and Reviewer to assign the maximum points depending on the program relevance", "", "", "", "", "", "", ""],
+                ["10", "Co-curricular extension Activities, special camps, awareness programs etc.",
+                "Assesor  and Reviewer to assign the maximum points depending on the program relevance", "", "", "", "", "", "", ""],
+                ["11", "Organization of workshops, conferences by department/College",
+                "Organizing Secretary - 9. Co-Secretray - 6,Joint Secretary / Convener - 3 Points Committee Member - 2", "", "", "", "", "", "", ""],
+                ["12", "Class hours handled/month",
+                "Theory = 3,Practicals = 3", "6", "", "", "", "", "", ""],
+                ["13", "Participation in CMES, Conferences, seminar, CEU as faculty/ presentation in conferences, Paper Presentations, Poster Presentations",
+                " One presentation = 3, Paper /Poster Presentation(2 Nos) = 5, for more than two presentations= 8", "8", "", "", "", "", "", ""],
+                ["14","","100","","","","","","",""],
+                ["15","","","","","","","","total",""]
+                
+                ]
+
+            //Performance Table
+            var table = $('#performanceTable').DataTable({
+                data:dataSet,
+                columns: [
+                { title: "S.No" },
+                { title: "Attributes" ,width:300 },
+                { title: "Details", width:300  },
+                { title: "Max Points Assigned" },
+                { title: "Scored Points" },
+                { title: "Self Appraisal" },
+                { title: "Assessor" },
+                { title: "Reviewer" },
+                { title: "Total" },     
+                { title: "Remarks" ,width:150 }     
+                  
+            ],
+            "columnDefs": [ {
+                "targets": 3,
+                "sortable": false
+                },
+                {
+                "targets": 7,
+                "sortable": false
+                } ],
+                
+            
+            });
+            //Research Table
+            var dataSetRes = [
+                ["1", "Preparation of faculty duties, ERP Duties ,Admissions, Alumini, Placement",
+                " Three or more than three additional responsibilities = 15,Two additional = 10,One additional responsibility = 5", "15", "", "", "", "", "", ""],
+                ["2", "Guiding UG/PG dissertation compilation",
+                "Guiding more than 5 students =15,guiding 3-5 students = 10, guiding less than 2 students = 5", "15", "", "", "", "", "", ""],
+                ["3", "Member of Committees",
+                "Department Committee = 15 College Committee = 10", "15", "", "", "", "", "", ""],
+                ["4", "Preparation of metrics for NIRF/NAAC/NBA and other accreditation agencies",
+                "NAAC and NIRF Coordinatior = 15,Only NAAC or only NIRF = 10,supporting role only= 5", "15", "", "", "", "", "", ""],
+                ["5", "Course Coordinator, Program Incharge",
+                "Extra responsilibity for two or more programs = 15,2 Courses Coordinator = 10,only single program coordinator = 5", "15", "", "", "", "", "", ""],
+                ["6","","","75","","","","","",""],
+                ["7","","","","","","","","total",""]
+               
+            ]
+            var tableResarch = $('#admsonTable').DataTable({
+                data:dataSetRes,
+                columns: [
+                { title: "S.No" },
+                { title: "Attributes" ,width:300 },
+                { title: "Details", width:300  },
+                { title: "Max Points Assigned" },
+                { title: "Scored Points" },
+                { title: "Self Appraisal" },
+                { title: "Assessor" },
+                { title: "Reviewer" },
+                { title: "Total" },     
+                { title: "Remarks" ,width:150 }     
+                  
+            ],
+            "columnDefs": [ {
+                "targets": 3,
+                "sortable": false
+                },
+                {
+                "targets": 7,
+                "sortable": false
+                } ],
+                
+            
+            });
+            //Table ENd
+            //Personalilty Table
+            var dataSetPer = [
+               
+                ["1","Leadership skills (eg. Self-driven, teamwork, clarity in work, etc)",
+                "Seldom needs guidance or push: takes up responsibility happily = 3",
+                "5","","","","","",""],
+                ["2","Attitude and step up during emergency",
+                "Humble and always helps during emergency = 5",
+                "5","","","","","",""],
+                ["3","Accountability  and Reliability",
+                "Takes responsbility for both success and failure and ensures not to commit the same mistake twice = 2",
+                "2","","","","","",""],
+                
+                ["4","Intergrity/honesty",
+                "Does not hide facts and is open and transparent",
+                "5","","","","","",""],
+                ["5","Attendance and Punctuality ( reporting for class on time)",
+                "> 90 pc = 10 80-90- 5,< 80 = 0",
+                "10","","","","","",""],
+                ["6","","","25","","","","","",""],
+                ["7","","","","","","","","total",""]
+                
+               
+            ]
+            var tableResarch = $('#personalityTable').DataTable({
+                data:dataSetPer,
+                columns: [
+                { title: "S.No" },
+                { title: "Attributes" ,width:300 },
+                { title: "Details", width:300  },
+                { title: "Max Points Assigned" },
+                { title: "Scored Points" },
+                { title: "Self Appraisal" },
+                { title: "Assessor" },
+                { title: "Reviewer" },
+                { title: "Total" },     
+                { title: "Remarks" ,width:150 }     
+                  
+            ],
+            "columnDefs": [ {
+                "targets": 3,
+                "sortable": false
+                },
+                {
+                "targets": 7,
+                "sortable": false
+                } ],
+                
+            
+            });
+            //Table ENd
+          
+           
+        })
+        $(document).on("click", function(event){
+            var trigger = $(".dropdown");
+            if(trigger !== event.target && !trigger.has(event.target).length){
+                $(".dropdown-menu").removeClass('show');
+                $(trigger).children('a').find('span').html('<i class="fa-light fa-chevron-down ml-2"></i>');
+            }            
+        });
+    </script>
+</body>
+</html>
